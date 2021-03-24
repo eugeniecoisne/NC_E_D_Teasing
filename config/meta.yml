@@ -1,0 +1,9 @@
+# config/meta.yml
+
+# DEFAULT
+
+meta_product_name: "Naturo Creative"
+meta_title: "Naturo Creative | Naturopathie"
+meta_description: "Emmanuelle Dominici, naturopathe située dans les Hauts de Seine"
+meta_image: "https://res.cloudinary.com/eugcoi/image/upload/v1616601271/naturo-creative-background.jpg"
+meta_favicon: "https://res.cloudinary.com/eugcoi/image/upload/v1616601938/favicon-nc.png"

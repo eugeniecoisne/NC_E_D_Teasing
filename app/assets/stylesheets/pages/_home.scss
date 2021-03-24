@@ -1,1 +1,133 @@
 // Specific CSS for your home-page
+.home-container {
+  height:100vh;
+  min-height: 560px;
+}
+.home-banner {
+  background-image: url("vegetal.jpg");
+  background-size: cover;
+  background-position: top;
+  height:85vh;
+  min-height: 476px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-banner-logo-and-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+  min-height: 280px;
+  max-height: 355px;
+  align-items: center;
+  color: white;
+  text-align: center;
+  img {
+    max-height: 150px;
+    width: auto;
+    object-fit: cover;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: bolder;
+    font-weight: 500;
+    font-style: italic;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  h3 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+.home-banner-coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 84px;
+  height: 15vh;
+  padding: 2rem;
+  h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #286855;
+    text-align: center;
+
+  }
+}
+
+// RESPONSIVE HOME //
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 335px) {
+  .home-banner {
+    height:75vh;
+    min-height: 420px;
+  }
+  .home-banner-logo-and-text {
+    img {
+      height: auto;
+      width: 90vw;
+      object-fit: cover;
+    }
+    h2 {
+      font-size: 16px;
+    }
+    h3 {
+      font-size: 12px;
+    }
+  }
+  .home-banner-coming-soon {
+    height: 25vh;
+    min-height: 140px;
+    h4 {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 336px) and (max-width: 575px) {
+  .home-banner {
+    height:75vh;
+    min-height: 420px;
+  }
+  .home-banner-logo-and-text {
+    img {
+      height: auto;
+      width: 90vw;
+      object-fit: cover;
+    }
+  }
+  .home-banner-coming-soon {
+    height: 25vh;
+    min-height: 140px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px)  {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px)  {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
